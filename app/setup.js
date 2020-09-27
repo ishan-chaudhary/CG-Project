@@ -45,7 +45,7 @@ const setup = (container) => {
 
     // Setup the renderer
     const renderer = new WebGLRenderer({ alpha: true });
-    renderer.setClearColor(0xb6c3c3, 1);
+    renderer.setClearColor(0x000000, 0);
     renderer.setSize(window.innerWidth, window.innerHeight-5);
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = PCFSoftShadowMap;
