@@ -1,0 +1,31 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "Two-player chess for the web",
+  "repository": "https://github.com/schowdhuri/chess.git",
+  "main": "app/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.config.js",
+    "build:dev": "node_modules/.bin/webpack --config webpack.config.js --env.dev=true",
+    "watch": "node_modules/.bin/webpack --config webpack.config.js --env.dev=true --env.watch=true"
+  },
+  "keywords": [
+    "three.js",
+    "blender",
+    "webgl"
+  ],
+  "author": "Subir",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "three": "^0.85.2",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "devDependencies": {
+    "args": "^2.6.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.4.1"
+  }
+}
